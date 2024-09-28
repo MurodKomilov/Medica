@@ -6,27 +6,22 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.medica.R
-import com.example.medica.databinding.FragmentLetsYouInBinding
-import kotlin.concurrent.fixedRateTimer
+import com.example.medica.databinding.FragmentCreateAccountBinding
 
 
-class LetsYouInFragment : Fragment() {
+class CreateAccountFragment : Fragment() {
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding = FragmentLetsYouInBinding.inflate(inflater)
 
-
-        binding.button.setOnClickListener {
-            fragmentManager?.beginTransaction()?.replace(R.id.fragment_container,CreateAccountFragment())?.commit()
-        }
-
-
+        val binding = FragmentCreateAccountBinding.inflate(inflater)
 
 
         return binding.root
+
     }
 
 
