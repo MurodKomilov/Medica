@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Medica</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thousands_of_doctors_experts_to_help_your_health"><![CDATA[Thousands of doctors & experts to help your health!]]></string>
+    <string name="health_checks_consultations_easily_anywhere_anytime"><![CDATA[Health checks & consultations easily anywhere anytime]]></string>
+</resources>
